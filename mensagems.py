@@ -41,3 +41,39 @@ Fontes:
 * Sistemas Operacionais: projeto e implementação - Tanenbaum e Albert S. Woodhull
 
 """
+
+mensagem_funcionamento = """			                               Funcionamento do Sistema Operacional
+						
+						Introdução
+
+O funcionamento de um sistema operacional e dividido entre módulos, que desempenham suas funções para o funcionamento de um        computador.
+
+					                       Kernel
+					
+O kernel, também chamado de núcleo, é responsável pelo gerenciamento de memória, de processos, subsistemas de arquivos, gerenciamento de rede, suporte aos dispositivos de Entrada e Saida.
+É o elo que faz a ligação entre o hardware e os softwares de um computador, componente central de todo o sistema operacional.
+
+				                  Gerenciamento de Processos
+
+Para o Sistema Operacional executar um processo, é necessário o sistema de descritor de processos, também conhecido como bloco de controle de processo (PCB). o PCB permite o monitoramento e controle da execução de um processo.
+
+					Gerenciamento de Memória
+
+Os sistemas de gerenciamento de memória são divididos entre 2 grupos: os que fazem troca de processos entre a memória principal e de disco, e os que não fazem.
+Monoprogramação sem Troca ou Paginação: nesse sistema de gerenciamento, um único processo e executado por vez utilizando toda a  memória disponível o sistema operacional carrega um programa do disco para a memória principal e o executa. depois aguarda o usuário 
+para um novo programa ser executado.
+Multiprogramação: técnica de processamento onde um computador executa simultaneamente múltiplos processos, fazendo com que a    CPU seja utilizada em 100% do tempo diminuindo o tempo ocioso.
+ 
+                                                                                          					Gerenciamento de Arquivos
+ 
+O móduclo de gerenciamento de arquivos tem várias funções, segurança para um usuário não acessar o arquivo de outro usuário,                compartilhamento de arquivos entre usuários e pela rede, é a parte mais visível do SO pois o usuário está sempre utilizando arquivos.
+
+São utilizados três métodos diferentes para acessar dados de arquivos:
+
+- Acesso sequencial
+- Acesso direto
+- Acesso indexado
+
+Fontes:
+* Sistemas Operacionais - Ramiro Córdova
+"""
