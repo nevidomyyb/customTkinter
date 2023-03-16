@@ -1,5 +1,5 @@
 import customtkinter as ctk
-from mensagems import mensagem, mensagem_funcionamento
+from mensagems import mensagem, mensagem_funcionamento, mensagem_hardware
 janela = ctk.CTk() #Criando a janela
 
 janela._set_appearance_mode("light") #Setando a aparência 
@@ -45,6 +45,7 @@ def hardware():
     if hardware_ativada: return
     hardware_ativada = True
     textbox.delete("0.0", "end")
+    textbox.insert("0.0", mensagem_hardware)
 
 btn_1 = ctk.CTkButton(
     janela, text="História dos Sistemas Operacionais",

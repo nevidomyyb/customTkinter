@@ -78,14 +78,14 @@ Fontes:
 * Sistemas Operacionais - Ramiro Córdova
 """
 
-hardware = """					    Hardware e Software
+mensagem_hardware = """					    Hardware e Software
 
 					            O Hardware
 
 O hardware é tudo aquilo que podemos tocar, é composta pela parte tangível do computador.
 São exemplos:
 
-*Processador
+* Processador
 * Disco
 * Placa mãe
 
@@ -93,10 +93,68 @@ São exemplos:
 
 É tudo aquilo que é intangível no computador, ele é armazenado no hardware e executado pelo processador. e seus dados normalmente     são mantidos na memória.
 
-				           Relação entre Hardware e Software
+				           Relações entre Hardware e Software
 
 John von Neumann propõe que os computadores devem ter uma unidade central de processamento (CPU), composta por uma unidade 
 aritmética e uma unidade de controle de registradores, além disso prevê a existência de uma memória principal (RAM) e dispositivos de 
-entrada e saída.  
+entrada e saída, isso é conhecido como arquitetura de Von Neumann.
 Um computador é formado por esses componentes físicos além dos programas e sistema operacional. 
+
+Temos como princípio da equivalência que todas as operações realizadas por um software pode ser diretamente realizada por um 
+hardware e vice-versa. Máquinas virtuais e emuladores são exemplos de softwares que simulam o funcionamento de um hardware.
+Porém o contrário e menos intuitivo. Um hardware pode ter o funcionamento de um software para buscar mais perfomance por exemplo, 
+fazendo com que a execução do hardware seja em tempo real.
+
+					Componentes do Hardware
+
+Um computador criado a partir da arquitetura de Von Neumann terá: pelo menos um processador, memória RAM e algum dispositivo de 
+entrada e saida.
+
+				                                Processador
+
+A função do processador e interpretar as instruções de um programa e executá-las. Para isso, o processador possui três principais 
+componentes:
+A unidade lógico-aritmética, que efetua cálculos e operações de lógica; a unidade de controle, que garante o fluxo dos dados e operações dentro do processador e os registradores, que são pequenas memórias, exrtremamente rápidas, dentro do processador
+
+					         Memória Principal
+
+A memória RAM e comumente associada à memória principal.
+Ela deve ser muito rápida para não perder ciclos de processamento, cumpre a função de armazenar dados e instruções dos programas
+que estão sendo executados.
+Memória cache é uma memória ainda mais rápida que são localizadas próximas ou dentro do processador.
+A memória principal é volátil, não guarda informação caso o computador seja desligado.
+
+					       Memória Secundária
+
+Tem a função de armazenar informação de maneira durável, para ser lida em um momento posterior, essas memórias são mais lentas 
+que a memória principal.
+
+				                Dispositivos de entrada e saida
+
+São a maneira com que o usuário interage com o computador:
+
+* Monitor
+* Teclado
+* Mouse
+* Placas de rede
+
+					        Tipos de Software
+
+1. Sistema Operacional (SO): software que controla o hardware e fornece serviços para os programas de aplicação.
+
+2. Programas de Aplicação: programas escritos para realizar tarefas específicas, como processamento de texto, edição de imagens, 
+planilhas eletrônicas, jogos, entre outros.
+
+3. Utilitários: programas que realizam tarefas de manutenção, gerenciamento e diagnóstico do sistema, como backup, desfragmentação, verificação de vírus, etc.
+
+4. Compiladores: programas que traduzem código fonte de uma linguagem de programação para código de máquina executável.
+
+5. Interpretadores: programas que leem e executam o código fonte de uma linguagem de programação diretamente, sem a necessidade 
+de compilação prévia.
+
+6. Editores de Texto: programas que permitem a criação e edição de arquivos de texto simples.
+
+
+
+
 """
