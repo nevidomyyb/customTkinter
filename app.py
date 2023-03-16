@@ -13,14 +13,14 @@ frame_menu = ctk.CTkFrame(master=janela, width=280, height=700, fg_color="#DCDAD
 historia_ativada = False
 funcionamento_ativada =  False
 hardware_ativada = False
+
 def historia():
     global historia_ativada 
     global funcionamento_ativada
     global hardware_ativada
     funcionamento_ativada = False
     hardware_ativada = False
-    if historia_ativada:
-        return
+    if historia_ativada: return
     historia_ativada = True
     textbox.delete("0.0", "end")
     textbox.insert("0.0", mensagem)
@@ -31,14 +31,20 @@ def funcionamento():
     global hardware_ativada
     historia_ativada = False
     hardware_ativada = False
-    if funcionamento_ativada:
-        return
+    if funcionamento_ativada: return
     funcionamento_ativada = True
     textbox.delete("0.0", "end")
     textbox.insert("0.0", mensagem_funcionamento)
 
 def hardware():
-    pass
+    global funcionamento_ativada
+    global historia_ativada
+    global hardware_ativada
+    historia_ativada = False
+    funcionamento_ativada = False
+    if hardware_ativada: return
+    hardware_ativada = True
+    textbox.delete("0.0", "end")
 
 btn_1 = ctk.CTkButton(
     janela, text="História dos Sistemas Operacionais",

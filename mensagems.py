@@ -77,3 +77,26 @@ São utilizados três métodos diferentes para acessar dados de arquivos:
 Fontes:
 * Sistemas Operacionais - Ramiro Córdova
 """
+
+hardware = """					    Hardware e Software
+
+					            O Hardware
+
+O hardware é tudo aquilo que podemos tocar, é composta pela parte tangível do computador.
+São exemplos:
+
+*Processador
+* Disco
+* Placa mãe
+
+					            O Software
+
+É tudo aquilo que é intangível no computador, ele é armazenado no hardware e executado pelo processador. e seus dados normalmente     são mantidos na memória.
+
+				           Relação entre Hardware e Software
+
+John von Neumann propõe que os computadores devem ter uma unidade central de processamento (CPU), composta por uma unidade 
+aritmética e uma unidade de controle de registradores, além disso prevê a existência de uma memória principal (RAM) e dispositivos de 
+entrada e saída.  
+Um computador é formado por esses componentes físicos além dos programas e sistema operacional. 
+"""
